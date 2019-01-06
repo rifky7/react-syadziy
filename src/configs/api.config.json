@@ -1,0 +1,60 @@
+{
+    "BASE_URL": "http://localhost:8282/tigadaya/api",
+    "ENDPOINTS": {
+        "USER": {
+            "LOGIN":"/user/check",
+            "LISTUSER":"/user/get",
+            "CREATEUSER":"/user/create",
+            "EDITUSER":"/user/edit",
+            "DELETEUSER":"/user/delete"
+        },
+        "MENU": {
+            "LISTMENU":"/menu/get",
+            "CREATEMENU":"/menu/create",
+            "EDITMENU":"/menu/edit",
+            "DELETEMENU":"/menu/delete"
+        },
+        "ICON":{
+            "LISTICON":"/icons/get",
+            "CREATEICON":"/icons/create",
+            "DELETEICON":"/icons/delete"
+        },
+        "MAHASISWA": {
+            "LISTMAHASISWA":"/mahasiswa/get",
+            "CREATEMAHASISWA":"/mahasiswa/create",
+            "EDITMAHASISWA":"/mahasiswa/edit",
+            "DELETEMAHASISWA":"/mahasiswa/delete"
+        },
+        "FAKULTAS": {
+            "LISTFAKULTAS":"/fakultas/get",
+            "CREATEFAKULTAS":"/fakultas/create",
+            "EDITFAKULTAS":"/fakultas/edit",
+            "DELETEFAKULTAS":"/fakultas/delete"
+        },
+        "JURUSAN": {
+            "LISTJURUSAN":"/jurusan/get",
+            "CREATEJURUSAN":"/jurusan/create",
+            "EDITJURUSAN":"/jurusan/edit",
+            "DELETEJURUSAN":"/jurusan/delete"
+        },
+        "MATKUL": {
+            "LISTMATKUL":"/matakuliah/get",
+            "CREATEMATKUL":"/matakuliah/create",
+            "CREATEMATKULDETAIL":"/matakuliahdetail/create",
+            "EDITMATKUL":"/matakuliah/edit",
+            "DELETEMATKUL":"/matakuliah/delete"
+        },
+        "PROVINSI": {
+            "LISTPROVINSI":"/provinsi/get",
+            "CREATEPROVINSI":"/provinsi/create",
+            "EDITPROVINSI":"/provinsi/edit",
+            "DELETEPROVINSI":"/provinsi/delete"
+        },
+        "KOTA": {
+            "LISTKOTA":"/kota/get",
+            "CREATEKOTA":"/kota/create",
+            "EDITKOTA":"/kota/edit",
+            "DELETEKOTA":"/kota/delete"
+        }
+    }
+}
